@@ -225,7 +225,7 @@ ul.social-share li a {
 
 ul.social-share li a:hover {
   background: #c52d2f;
-  color: #fff;
+  color: #fff !important;
 }
 
 .search i {
