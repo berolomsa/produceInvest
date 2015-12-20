@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ნახვაport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Portfolio | Corlate</title>
@@ -89,25 +89,25 @@
                 <div class="portfolio-items">
                     <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
-                        </div>
+                        </div>          
                     </div><!--/.portfolio-item-->
-
+                    
                     <div class="portfolio-item joomla current col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>          
@@ -118,9 +118,9 @@
                             <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>        
@@ -131,9 +131,9 @@
                             <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>           
@@ -144,9 +144,9 @@
                             <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>      
@@ -157,9 +157,9 @@
                             <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>         
@@ -170,9 +170,9 @@
                             <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>          
@@ -183,9 +183,9 @@
                             <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3 style="color:white;">სათაური </h3>
+                                    <p>ტექსტი სურათის შესახებ</p>
+                                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>          
@@ -196,11 +196,11 @@
     </section><!--/#portfolio-item-->
     
 
- <footer id="footer" class="midnight-blue">
+     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2015 <a target="_blank" href="https://www.facebook.com/BackOrForth" style="color: #c52d2f;">Bero </a> &<a href="https://www.facebook.com/a.bodokia" style="color: #c52d2f;"> Anano</a>. ყველა უფლება დაცულია.
+                    &copy; 2015 <a target="_blank" href="https://www.facebook.com/BackOrForth" class="footer-text">Bero </a> &<a href="https://www.facebook.com/a.bodokia" class="footer-text"> Anano</a>. ყველა უფლება დაცულია.
 
                 </div>
                 <div class="col-sm-6 col-xs-8">

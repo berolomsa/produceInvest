@@ -101,7 +101,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 				</div>
 
 				<div class="row clearfix">
-					<?php for($i=0; $i<3; $i++){echo 'bla';}?>
 					<div class="col-md-4 col-sm-6">	
 						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="media">
@@ -168,7 +167,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 					<br/><br/>
 				<div class="row clearfix">
-					<?php for($i=0; $i<3; $i++){echo 'bla';}?>
 					<div class="col-md-4 col-sm-6">	
 						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="media">
@@ -242,7 +240,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2015 <a target="_blank" href="https://www.facebook.com/BackOrForth" style="color: #c52d2f;">Bero </a> &<a href="https://www.facebook.com/a.bodokia" style="color: #c52d2f;"> Anano</a>. ყველა უფლება დაცულია.
+                    &copy; 2015 <a target="_blank" href="https://www.facebook.com/BackOrForth" class="footer-text">Bero </a> &<a href="https://www.facebook.com/a.bodokia" class="footer-text"> Anano</a>. ყველა უფლება დაცულია.
 
                 </div>
                 <div class="col-sm-6 col-xs-8">
