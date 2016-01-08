@@ -163,75 +163,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 							<p>რაიმე მოკლე ინფორმაცია</p>
 						</div>
 					</div><!--/.col-lg-4 -->
-				</div> <!--/.row -->
-
-					<br/><br/>
-				<div class="row clearfix">
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
-					
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
-
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man3.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
-				</div> <!--/.row -->
-		
-				</div>	<!--/.row-->
+				</div> <!--/.row -->		
+			</div>	<!--/.row-->
+				
 			</div><!--section-->
 		</div><!--/.container-->
     </section><!--/about-us-->

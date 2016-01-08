@@ -94,150 +94,68 @@
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br></p>
 			</div>
-			
-		
-			
 			<!-- our-team -->
 			<div id="ourTeam" class="team">
 				<div class="center wow fadeInDown">
 					<h2>გუნდი</h2>
 				</div>
 
-				<div class="row clearfix">
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
+		        <div class="row">
+	                <div class="col-md-4 wow fadeInDown">
+	                    <div class="clients-comments text-center">
+	                        <a href="http://facebook.com/backorforth"><img src="images/client1.png" class="img-circle" alt=""></a>
+	                        <h2>ბერო ლომსაძე</h2>
+	                        <h4>Software Developer</h4>
+	                    </div>
+	                </div>
+	                <div class="col-md-4 wow fadeInDown">
+	                    <div class="clients-comments text-center">
+	                        <a href="http://facebook.com/backorforth"><img src="images/client2.png" class="img-circle" alt=""></a>
+	                        <h2>ანანო ბოდოკია</h2>
+	                        <h4>Software Developer</h4>
+	                    </div>
+	                </div>
+	                <div class="col-md-4 wow fadeInDown">
+	                    <div class="clients-comments text-center">
+	                        <a href="http://facebook.com/backorforth"><img src="images/client3.png" class="img-circle" alt=""></a>
+	                        <h2>ბერო ლომსაძე</h2>
+	                        <h4>Software Developer</h4>
+	                    </div>
+	                </div>
+           		</div>
+			</div>	<!--/.row-->
 
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
+			<div id="ourTeam" class="team">
+				<div class="center wow fadeInDown">
+					<h2>პარტნიორები</h2>
+				</div>
 
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man3.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
-				</div> <!--/.row -->
+		        <div class="row">
+	                <div class="col-md-3 wow fadeInDown">
+	                    <div class="partnior-comments text-center">
+	                        <a href="http://geocell.ge"><img src="images/geocell.png" class="img-circle" alt=""></a>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 wow fadeInDown">
+	                    <div class="partnior-comments text-center">
+	                        <a href="http://magti.com"><img src="images/magti.jpg" class="img-circle" alt=""></a>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 wow fadeInDown">
+	                    <div class="partnior-comments text-center">
+	                        <a href="http://beeline.ge"><img src="images/beeline.png" class="img-circle" alt=""></a>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 wow fadeInDown">
+	                    <div class="partnior-comments text-center">
+	                        <a href="http://bali.ge"><img src="images/bali.png" class="img-circle" alt=""></a>
+	                    </div>
+	                </div>
+           		</div>
+			</div>	<!--/.row-->
 
-					<br/><br/>
-				<div class="row clearfix">
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
-					
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
-
-					<div class="col-md-4 col-sm-6">	
-						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="media">
-								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man3.jpg" alt=""></a>
-								</div>
-								<div class="media-body">
-									<h4>სახელი 1</h4>
-									<h5>თანამდებობა 1</h5>
-									
-									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div><!--/.media -->
-							<p>რაიმე მოკლე ინფორმაცია</p>
-						</div>
-					</div><!--/.col-lg-4 -->
-				</div> <!--/.row -->
-		
-				</div>	<!--/.row-->
-			</div><!--section-->
-		</div><!--/.container-->
-    </section><!--/about-us-->
+	</div><!--/.container-->
+</section><!--/about-us-->
 
      <footer id="footer" class="midnight-blue">
         <div class="container">

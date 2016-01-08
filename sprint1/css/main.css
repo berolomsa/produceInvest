@@ -20,7 +20,7 @@ h5,
 h6 {
   font-weight: 600; 
   font-family: 'Open Sans', sans-serif;
-  color:#4e4e4e;
+  color:#868686;
 }
 
 h1{
@@ -1169,12 +1169,13 @@ a.accordion-toggle  i{
   overflow: hidden;
   margin: 60px 0;
 }
-
 .team h4 {
   margin-top: 0;
-  text-transform: uppercase;
 }
 
+.team h2 {
+  margin-top: 10px;
+}
 .team h5 {
   font-weight: 300;
 }
@@ -1494,6 +1495,23 @@ ul.social_icons li  a i{
     margin-bottom: 100px;
 }
 
+.partnior-comments {
+    background-position: center 118px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.partnior-comments img {
+  border: 2px solid #DDDDDD;
+  height: 182px;
+  padding: 3px;
+  width: 182px;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+  margin-bottom: 30px;
+}
 .clients-comments img {
   background:#DDDDDD;
   border: 1px solid #DDDDDD;
@@ -1504,6 +1522,7 @@ ul.social_icons li  a i{
   -moz-transition: all 0.9s ease 0s;
   -webkit-transition: all 0.9s ease 0s;
   -o-transition: all 0.9s ease 0s;
+  margin-bottom: 30px;
 }
 
 .clients-comments h3 {
@@ -1531,7 +1550,7 @@ ul.social_icons li  a i{
 }
 
 .footer_left {
-  padding: 10px;
+  padding: ;
 }
 
 .text-left {
@@ -2504,8 +2523,8 @@ shortcodes page css
 }
 
 #footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #93d806;
   /*border-top: 0.1em solid #868686;*/
   color: white;
