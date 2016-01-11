@@ -125,7 +125,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
            		</div>
 			</div>	<!--/.row-->
 
-			<div id="ourTeam" class="team">
+			<div id="ourPartners" class="team">
 				<div class="center wow fadeInDown">
 					<h2>პარტნიორები</h2>
 				</div>
