@@ -90,27 +90,38 @@
 
             <div class="row">
                 <div class="portfolio-items">
+                    <?php
+                        $current    = 'images/portfolio/current/';
+                        $finished = 'images/portfolio/finished/';
+                        $currentImages = scandir($current);
+                        $finishedImages = scandir($finished);
+                        unset($currentImages[0]);
+                        unset($finishedImages[0]);
+                        unset($currentImages[1]);
+                        unset($finishedImages[1]);
+                    ?>
+
                     <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item2.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>          
                     </div><!--/.portfolio-item-->
-                    
+
                     <div class="portfolio-item joomla current col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item2.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>          
@@ -118,12 +129,12 @@
 
                     <div class="portfolio-item current done col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item3.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>        
@@ -131,12 +142,12 @@
 
                     <div class="portfolio-item joomla done apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item4.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>           
@@ -144,12 +155,12 @@
           
                     <div class="portfolio-item joomla html current col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item5.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>      
@@ -157,12 +168,12 @@
 
                     <div class="portfolio-item done html apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item6.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>         
@@ -170,12 +181,12 @@
 
                     <div class="portfolio-item done html col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item7.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>          
@@ -183,12 +194,12 @@
 
                     <div class="portfolio-item wordpress html current col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/current/item8.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3 style="color:white;">სათაური </h3>
                                     <p>ტექსტი სურათის შესახებ</p>
-                                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
+                                    <a class="preview" href="images/portfolio/finished/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> ნახვა</a>
                                 </div> 
                             </div>
                         </div>          
