@@ -115,12 +115,12 @@ a:focus {
 }
 
 body > section {
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 .center {
   text-align: center;
-  padding-bottom: 55px;
+  padding-bottom: 5px;
 }
 
 .scaleIn {
@@ -1917,20 +1917,20 @@ ul.social_icons li  a i{
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
 .gmap-area .gmap iframe {
   border-radius: 50%;
-  height: 280px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
 }
 
 .gmap{
     border: 10px solid #f6f5f0;
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     box-shadow: 0px 0px 3px 3px #e7e4dc;
     overflow: hidden;
     position: relative;
@@ -1959,7 +1959,7 @@ ul.social_icons li  a i{
 
 .form-group .form-control {
   padding: 7px 12px;
-  border-color:#f2f2f2;
+  border-color: #93d806;
   box-shadow: none;
 }
 
