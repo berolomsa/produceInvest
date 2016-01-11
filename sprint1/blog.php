@@ -89,13 +89,30 @@
 
         <div class="blog">
             <div class="row">
-                <div class="col-md-3"></div>
+                <div class="col-md-2"></div>
                 <div class="col-md-8">
-
-                </div>
-                <aside class="col-md-1">
-                
-                </aside>  
+                        <div class="alert alert-success" id="faq">
+                            <li onclick="question1()">პირველი კითხვა</li>
+                            <p id="question1" style="display:none; ">პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი</p>
+                        </div>
+                        <div class="alert alert-success" id="faq">
+                            <li onclick="question2()">მეორე კითხვა</li>
+                            <p id="question2" style="display:none; ">მეორე კითხვის პასუხი</p>
+                        </div>
+                        <div class="alert alert-success" id="faq">
+                            <li onclick="question3()">მესამე კითხვა</li>
+                            <p id="question3" style="display:none; ">მესამე კითხვის პასუხი</p>
+                        </div>
+                        <div class="alert alert-success" id="faq">
+                            <li onclick="question4()">მეოთხე კითხვა</li>
+                            <p id="question4" style="display:none; ">მეოთხე კითხვის პასუხი</p>
+                        </div>
+                        <div class="alert alert-success" id="faq">
+                            <li onclick="question5()">მეხუთე კითხვა</li>
+                            <p id="question5" style="display:none; ">მეხუთე კითხვის პასუხი</p>
+                        </div>
+                </div> 
+                <div class="col-md-2"></div>
             </div><!--/.row-->
         </div>
     </section><!--/#blog-->

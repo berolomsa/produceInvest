@@ -68,3 +68,43 @@ jQuery(function($) {'use strict',
 		social_tools: false
 	});	
 });
+
+function question1() {
+    if (document.getElementById("question1").style.display == "block") {
+        document.getElementById("question1").style.display = "none";
+    } else {
+        document.getElementById("question1").style.display = "block";
+    };
+}
+
+function question2() {
+    if (document.getElementById("question2").style.display == "block") {
+        document.getElementById("question2").style.display = "none";
+    } else {
+        document.getElementById("question2").style.display = "block";
+    };
+}
+
+function question3() {
+    if (document.getElementById("question3").style.display == "block") {
+        document.getElementById("question3").style.display = "none";
+    } else {
+        document.getElementById("question3").style.display = "block";
+    };
+}
+
+function question4() {
+    if (document.getElementById("question4").style.display == "block") {
+        document.getElementById("question4").style.display = "none";
+    } else {
+        document.getElementById("question4").style.display = "block";
+    };
+}
+
+function question5() {
+    if (document.getElementById("question5").style.display == "block") {
+        document.getElementById("question5").style.display = "none";
+    } else {
+        document.getElementById("question5").style.display = "block";
+    };
+}

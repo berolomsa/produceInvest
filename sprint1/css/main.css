@@ -2553,3 +2553,10 @@ shortcodes page css
 .footer-text {
   font-weight: bold;   
 }
+
+#faq {
+  color: #868686 !important;
+  font-weight: bold !important;
+  border-color: #868686 !important;
+  background-color: transparent !important;
+}
