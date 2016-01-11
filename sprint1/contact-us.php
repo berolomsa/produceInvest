@@ -151,7 +151,7 @@
                             <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
                         </div>                        
                         <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">შეტყობინების დატოვება</button>
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">გაგზავნა</button>
                         </div>
                     </div>
                 </form> 
