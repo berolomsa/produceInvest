@@ -92,7 +92,7 @@
                 <div class="row">
                     <div class="col-sm-6 text-center">
                         <div class="gmap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.701391131911!2d44.76494724903228!3d41.791648655188744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446e759040b513%3A0x34c0cc349b7fad24!2sKing+Pharnavaz+Street+-+%5B2497%5D!5e0!3m2!1sen!2sge!4v1450650635996" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.701391131911!2d44.76494724903228!3d41.791648655188744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446e759040b513%3A0x34c0cc349b7fad24!2sKing+Pharnavaz+Street+-+%5B2497%5D!5e0!3m2!1sen!2sge!4v1450650635996" width="700" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
 
