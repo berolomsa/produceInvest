@@ -15,11 +15,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <html>
 <head>
-<title>Easy Admin Panel an Admin Panel Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>AdminPanel | ProduceInvest.Ge</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Easy Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
@@ -72,24 +71,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<a href="#"><i class="lnr lnr-apartment"></i>
 								<span>ბინები</span></a>
 								<ul class="sub-menu-list">
-									<li><a href="grids.html">დათვალიერება</a> </li>
-									<li><a href="widgets.html">დამატება</a></li>
+									<li><a href="viewGallery.php">დათვალიერება</a> </li>
+									<li><a href="addImage.php">დამატება</a></li>
 								</ul>
 						</li>
 						<li class="menu-list">
 							<a href="#"><i class="lnr lnr-picture"></i>
 								<span>გალერეა</span></a>
 								<ul class="sub-menu-list">
-									<li><a href="grids.html">დათვალიერება</a> </li>
-									<li><a href="widgets.html">დამატება</a></li>
+									<li><a href="viewGallery.php">დათვალიერება</a> </li>
+									<li><a href="addImage.php">დამატება</a></li>
 								</ul>
 						</li>
 						<li class="menu-list">
 							<a href="#"><i class="lnr lnr-question-circle"></i>
 								<span>FAQ</span></a>
 								<ul class="sub-menu-list">
-									<li><a href="grids.html">დათვალიერება</a> </li>
-									<li><a href="widgets.html">დამატება</a></li>
+									<li><a href="viewFAQ.php">დათვალიერება</a> </li>
+									<li><a href="addFAQ.php">დამატება</a></li>
 								</ul>
 						</li>
 						<!-- <li><a href="forms.html"><i class="lnr lnr-spell-check"></i> <span>Forms</span></a></li>
