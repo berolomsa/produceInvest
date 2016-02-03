@@ -154,7 +154,7 @@
 						</div>
 						<div class="wrapper-faq col-sm-12">
 							<?php
-							    echo '<img src="' . $row['path']. '" width="250px" height="250px" />';
+							    echo '<img src="' . $row['path']. '" width="100%" height="100%" />';
 							    ?>
 							<div  style="text-align: center;" class="faq-answer col-sm-12">
 								<span style="text-align: center;"> <?php echo $row['info']?></span>
