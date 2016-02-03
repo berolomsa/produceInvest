@@ -1,3 +1,17 @@
+<?php 
+    ob_start();
+    $host="localhost"; // Host name
+    $username="root"; // Mysql username
+    $password=""; // Mysql password
+    $db_name="produce_invest"; // Database name
+    $tbl_name="faq"; // Table name
+
+    mysql_connect("$host", "$username", "$password")or die("cannot connect");
+    mysql_select_db("$db_name")or die("cannot select DB");
+
+    $sql="SELECT * FROM $tbl_name";
+    $result = mysql_query($sql);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +37,6 @@
 </head><!--/head-->
 
 <body>
-
     <header id="header">
         <div class="top-bar">
             <div class="container">
@@ -80,7 +93,6 @@
             </div><!--/.container-->
         </nav><!--/nav-->
         
-
     <section id="blog" class="container">
         <div class="center">
             <h2>ხშირად დასმული კითხვები</h2>
@@ -88,37 +100,33 @@
         </div>
 
         <div class="blog">
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                        <div class="alert alert-success" id="faq">
-                            <li onclick="question1()">პირველი კითხვა</li>
-                            <p id="question1" style="display:none; ">პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი, პირველი კითხვის პასუხი</p>
+            <div class="container">
+                <div class="panel-group" id="accordion">
+
+                    <?php while($row = mysql_fetch_assoc($result)){
+
+                    ?>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <?php echo '<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse'. $row['id']. '"> ' .$row['question']. '</a>' ?>
+                            </h4>
                         </div>
-                        <div class="alert alert-success" id="faq">
-                            <li onclick="question2()">მეორე კითხვა</li>
-                            <p id="question2" style="display:none; ">მეორე კითხვის პასუხი</p>
+                        <?php echo '<div id="collapse' .$row['id'].'" class="panel-collapse collapse">'?>
+                            <div class="panel-body">
+                                 <?php echo $row['answer']?>
+                            </div>
                         </div>
-                        <div class="alert alert-success" id="faq">
-                            <li onclick="question3()">მესამე კითხვა</li>
-                            <p id="question3" style="display:none; ">მესამე კითხვის პასუხი</p>
-                        </div>
-                        <div class="alert alert-success" id="faq">
-                            <li onclick="question4()">მეოთხე კითხვა</li>
-                            <p id="question4" style="display:none; ">მეოთხე კითხვის პასუხი</p>
-                        </div>
-                        <div class="alert alert-success" id="faq">
-                            <li onclick="question5()">მეხუთე კითხვა</li>
-                            <p id="question5" style="display:none; ">მეხუთე კითხვის პასუხი</p>
-                        </div>
-                </div> 
-                <div class="col-md-2"></div>
-            </div><!--/.row-->
+                    </div>
+
+                    <?php }?>
+                </div>
+            </div>
         </div>
     </section><!--/#blog-->
 
 
-     <footer id="footer" class="midnight-blue">
+     <footer id="footer" class="midnight-blue" style="margin-top:150px">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">

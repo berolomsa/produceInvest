@@ -825,34 +825,6 @@ input.search-form:hover {
   margin-top: 0;
 }
 
-.panel-heading.active{
-  background: #1f1f20;
-}
-
-.panel-heading.active .panel-title>a{
-  color:#fff;
-}
-
-a.accordion-toggle  i{
-  width: 45px;
-  line-height: 44px;
-  font-size: 20px;
-  margin-top: -10px;
-  text-align: center;
-  margin-right: -15px;
-  background: #c9c9c9;
-}
-
-.panel-heading.active a.accordion-toggle i{
-  background: #c52d2f;
-  color: #fff;
-}
-
-.panel-heading.active a.accordion-toggle.collapsed i{
-  background: #c52d2f;
-  color: #fff;
-}
-
 .nav-tabs>li{
   margin-bottom: 0px;
   border-bottom: 1px solid #e6e6e6;
@@ -1542,6 +1514,7 @@ ul.social_icons li  a i{
   font-weight: 700;
   font-style: oblique;
 }
+
 
 .footer {
   background: none repeat scroll 0 0 #2E2E2E;
@@ -2530,6 +2503,11 @@ shortcodes page css
   /*border-top: 0.1em solid #868686;*/
   color: white;
   /* font-weight: bold; */
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:60px;
+   width:100%;
 }
 
 #footer a {
@@ -2559,4 +2537,45 @@ shortcodes page css
   font-weight: bold !important;
   border-color: #868686 !important;
   background-color: transparent !important;
+}
+
+
+#accordion {
+    margin-top:40px;
+}
+
+.panel-default {
+  margin-bottom: 5px !important;
+}
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e072"; /* "play" icon */
+    float: right;
+    color: #F58723;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #93d806;
+}
+.panel-collapse  {
+  border:0.001em solid #93d806;
+  border-top:none;
 }
