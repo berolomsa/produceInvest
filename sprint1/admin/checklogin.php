@@ -27,7 +27,7 @@
 	if($count==1){
 	    session_start();            // Start the PHP session 
 		$_SESSION["loggedIn"] = true;
-		header("location:index.php");
+		header("location:viewFlats.php");
 	}
 	else {
 		$_SESSION["loggedIn"] = false;

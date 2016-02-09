@@ -63,12 +63,7 @@
 		<div class="left-side sticky-left-side">
 
 			<!--logo and iconic logo start-->
-			<div class="logo">
-				<h1><a href="index.php">ადმინპანელი</a></h1>
-			</div>
-			<div class="logo-icon text-center">
-				<a href="index.php"><i class="lnr lnr-home"></i> </a>
-			</div>
+
 
 			<!--logo and iconic logo end-->
 			<div class="left-side-inner">
