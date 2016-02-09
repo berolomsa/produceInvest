@@ -62,9 +62,15 @@
 
 				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
-
-						<li><a href="viewFlats.php"><i class="lnr lnr-apartment"></i> <span>ბინები</span></a></li>     
 						<li class="menu-list act">
+							<a href="#"><i class="lnr lnr-apartment"></i>
+								<span>ბინები</span></a>
+								<ul class="sub-menu-list">
+									<li><a href="viewGallery.php">დათვალიერება</a> </li>
+									<li><a href="addImage.php">დამატება</a></li>
+								</ul>
+						</li>
+						<li class="menu-list">
 							<a href="#"><i class="lnr lnr-picture"></i>
 								<span>გალერეა</span></a>
 								<ul class="sub-menu-list">
@@ -80,28 +86,6 @@
 									<li><a href="addFAQ.php">დამატება</a></li>
 								</ul>
 						</li>
-						<!-- <li><a href="forms.html"><i class="lnr lnr-spell-check"></i> <span>Forms</span></a></li>
-						<li><a href="tables.html"><i class="lnr lnr-menu"></i> <span>Tables</span></a></li>              
-						<li class="menu-list"><a href="#"><i class="lnr lnr-envelope"></i> <span>MailBox</span></a>
-							<ul class="sub-menu-list">
-								<li><a href="inbox.html">Inbox</a> </li>
-								<li><a href="compose-mail.html">Compose Mail</a></li>
-							</ul>
-						</li>      
-						<li class="menu-list"><a href="#"><i class="lnr lnr-indent-increase"></i> <span>Menu Levels</span></a>  
-							<ul class="sub-menu-list">
-								<li><a href="charts.html">Basic Charts</a> </li>
-							</ul>
-						</li>
-						<li><a href="codes.html"><i class="lnr lnr-pencil"></i> <span>Typography</span></a></li>
-						<li><a href="media.html"><i class="lnr lnr-select"></i> <span>Media Css</span></a></li>
-						<li class="menu-list"><a href="#"><i class="lnr lnr-book"></i>  <span>Pages</span></a> 
-							<ul class="sub-menu-list">
-								<li><a href="sign-in.html">Sign In</a> </li>
-								<li><a href="sign-up.html">Sign Up</a></li>
-								<li><a href="blank_page.html">Blank Page</a></li>
-							</ul>
-						</li> -->
 					</ul>
 				<!--sidebar nav end-->
 			</div>
@@ -144,20 +128,12 @@
 						<div class="tab-content">
 						<div class="tab-pane active" id="horizontal-form">
 
-							<form action="addImage_script.php" method="post" enctype="multipart/form-data" class="form-horizontal">
-							    <div class="form-group">
-									<label for="imageInput" class="col-sm-2 control-label">სურათის ატვირთვა</label>
-									<div class="col-sm-8">
-										<span class="btn btn-success fileinput-button">
-										<span>აირჩიეთ ფაილი</span>
-										<input type="file" name="fileToUpload" id="imageInput">
-									</div>
-							    </div>
+							<form action="addFlat_script.php" method="post" enctype="multipart/form-data" class="form-horizontal">
 							   <div class="form-group">
-									<label for="radio" class="col-sm-2 control-label">კატეგორია</label>
+									<label for="radio" class="col-sm-2 control-label">ბლოკი</label>
 									<div class="col-sm-8">
-										<div class="radio-inline"><label><input type="radio" style="category-radio" name="category" value="დასრულებული" checked=""> დასრულებული</label></div>
-										<div class="radio-inline"><label><input type="radio" style="category-radio" name="category" value="დაუსრულებელი" > დაუსრულებელი</label></div>
+										<div class="radio-inline"><label><input type="radio" style="category-radio" name="block" value="A-ბლოკი" checked=""> A-ბლოკი</label></div>
+										<div class="radio-inline"><label><input type="radio" style="category-radio" name="block" value="B-ბლოკი" > B-ბლოკი</label></div>
 									</div>
 								</div>
 								<div class="form-group">

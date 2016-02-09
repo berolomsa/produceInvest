@@ -36,6 +36,7 @@
 <!-- jQuery -->
 <!-- lined-icons -->
 <link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
+<link rel="shortcut icon" href="images/faicon.ico" type="image/x-icon" />
 <!-- //lined-icons -->
 <!-- chart -->
 <script src="js/Chart.js"></script>
@@ -63,7 +64,7 @@
 
 			<!--logo and iconic logo start-->
 			<div class="logo">
-				<h1><a href="index.html">ადმინპანელი</a></h1>
+				<h1><a href="index.php">ადმინპანელი</a></h1>
 			</div>
 			<div class="logo-icon text-center">
 				<a href="index.php"><i class="lnr lnr-home"></i> </a>
@@ -74,14 +75,8 @@
 
 				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
-						<li class="menu-list">
-							<a href="#"><i class="lnr lnr-apartment"></i>
-								<span>ბინები</span></a>
-								<ul class="sub-menu-list">
-									<li><a href="viewGallery.php">დათვალიერება</a> </li>
-									<li><a href="addImage.php">დამატება</a></li>
-								</ul>
-						</li>
+
+						<li><a href="viewFlats.php"><i class="lnr lnr-apartment"></i> <span>ბინები</span></a></li>     
 						<li class="menu-list act">
 							<a href="#"><i class="lnr lnr-picture"></i>
 								<span>გალერეა</span></a>

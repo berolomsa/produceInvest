@@ -4,6 +4,19 @@
 		session_destroy();
 		header("location:login.html");
 	} 
+
+	ob_start();
+	$host="localhost"; // Host name
+	$username="root"; // Mysql username
+	$password=""; // Mysql password
+	$db_name="produce_invest"; // Database name
+	$tbl_name="flat"; // Table name
+
+	mysql_connect("$host", "$username", "$password")or die("cannot connect");
+	mysql_select_db("$db_name")or die("cannot select DB");
+
+	$sql="SELECT * FROM $tbl_name";
+	$result = mysql_query($sql);
 ?>
 <!DOCTYPE HTML>
 
@@ -62,9 +75,8 @@
 
 				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
-
-						<li><a href="viewFlats.php"><i class="lnr lnr-apartment"></i> <span>ბინები</span></a></li>     
-						<li class="menu-list act">
+						<li class="active"><a href="viewFlats.php"><i class="lnr lnr-apartment"></i> <span>ბინები</span></a></li>     
+						<li class="menu-list">
 							<a href="#"><i class="lnr lnr-picture"></i>
 								<span>გალერეა</span></a>
 								<ul class="sub-menu-list">
@@ -80,28 +92,6 @@
 									<li><a href="addFAQ.php">დამატება</a></li>
 								</ul>
 						</li>
-						<!-- <li><a href="forms.html"><i class="lnr lnr-spell-check"></i> <span>Forms</span></a></li>
-						<li><a href="tables.html"><i class="lnr lnr-menu"></i> <span>Tables</span></a></li>              
-						<li class="menu-list"><a href="#"><i class="lnr lnr-envelope"></i> <span>MailBox</span></a>
-							<ul class="sub-menu-list">
-								<li><a href="inbox.html">Inbox</a> </li>
-								<li><a href="compose-mail.html">Compose Mail</a></li>
-							</ul>
-						</li>      
-						<li class="menu-list"><a href="#"><i class="lnr lnr-indent-increase"></i> <span>Menu Levels</span></a>  
-							<ul class="sub-menu-list">
-								<li><a href="charts.html">Basic Charts</a> </li>
-							</ul>
-						</li>
-						<li><a href="codes.html"><i class="lnr lnr-pencil"></i> <span>Typography</span></a></li>
-						<li><a href="media.html"><i class="lnr lnr-select"></i> <span>Media Css</span></a></li>
-						<li class="menu-list"><a href="#"><i class="lnr lnr-book"></i>  <span>Pages</span></a> 
-							<ul class="sub-menu-list">
-								<li><a href="sign-in.html">Sign In</a> </li>
-								<li><a href="sign-up.html">Sign Up</a></li>
-								<li><a href="blank_page.html">Blank Page</a></li>
-							</ul>
-						</li> -->
 					</ul>
 				<!--sidebar nav end-->
 			</div>
@@ -138,44 +128,49 @@
 			<!--notification menu end -->
 			</div>
 		<!-- //header-ends -->
-		<div id="page-wrapper">
+			<div id="page-wrapper">
 				<div class="graphs">
-					<h3 class="blank1">სურათის დამატება</h3>
-						<div class="tab-content">
-						<div class="tab-pane active" id="horizontal-form">
-
-							<form action="addImage_script.php" method="post" enctype="multipart/form-data" class="form-horizontal">
-							    <div class="form-group">
-									<label for="imageInput" class="col-sm-2 control-label">სურათის ატვირთვა</label>
-									<div class="col-sm-8">
-										<span class="btn btn-success fileinput-button">
-										<span>აირჩიეთ ფაილი</span>
-										<input type="file" name="fileToUpload" id="imageInput">
-									</div>
-							    </div>
-							   <div class="form-group">
-									<label for="radio" class="col-sm-2 control-label">კატეგორია</label>
-									<div class="col-sm-8">
-										<div class="radio-inline"><label><input type="radio" style="category-radio" name="category" value="დასრულებული" checked=""> დასრულებული</label></div>
-										<div class="radio-inline"><label><input type="radio" style="category-radio" name="category" value="დაუსრულებელი" > დაუსრულებელი</label></div>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="description" class="col-sm-2 control-label">აღწერა</label>
-									<div class="col-sm-8">
-										<input type="text" name="description" id="description" maxlength="30" cols="50" rows="4" class="form-control1"/>
-									</div>
-								</div>
-							    <div class="panel-footer">
-									<div class="row">
-										<div class="col-sm-8 col-sm-offset-2">
-											<button class="btn-success btn">დამატება</button>
-										</div>
-									</div>
-							    </div>
-							</form>
+					<h3 class="blank1">ბინების დათვალიერება</h3>
+					 <div class="xs tabls">
+						<div class="panel panel-warning" data-widget="{&quot;draggable&quot;: &quot;false&quot;}" data-widget-static="">
+							<div class="panel-body no-padding">
+								<table class="table table-striped">
+									<thead>
+										<tr class="warning">
+											<th>#</th>
+											<th>ბლოკი</th>
+											<th>სართული</th>
+											<th>ნომერი</th>
+											<th>სტატუსი</th>
+											<th style="width:20px"></th>
+										</tr>
+									</thead>
+									<tbody>
+										<?php while($row = mysql_fetch_assoc($result)){ ?>
+										<tr>
+											<td><?php echo $row['id'] ?></td>
+											<td><?php echo $row['blocktype'] ?>-ბლოკი</td>
+											<td><?php echo $row['floor'] ?></td>
+											<td><?php echo $row['flatnum'] ?></td>
+											<td><?php 
+											if ($row['flatstatus'] == 'FREE' ) {
+												echo 'თავისუფალი';	
+											}
+											if ($row['flatstatus'] == 'BOOKED' ) {
+												echo 'დაჯავშნილი';	
+											}
+											if ($row['flatstatus'] == 'SOLD' ) {
+												echo 'გაყიდული';	
+											}
+											 ?></td>
+											<td><img src="images/edit.png"/></td>
+										</tr>
+										<?php }?>
+									</tbody>
+								</table>
+							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
 			</div>
 		</div>
