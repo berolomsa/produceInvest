@@ -58,7 +58,14 @@
 				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
 
-						<li><a href="viewFlats.php"><i class="lnr lnr-apartment"></i> <span>ბინები</span></a></li>     
+						<li class="menu-list">
+							<a href="#"><i class="lnr lnr-apartment"></i>
+								<span>ბინები</span></a>
+								<ul class="sub-menu-list">
+									<li><a href="viewFlats.php">დათვალიერება</a> </li>
+									<li><a href="editFlat.php">რედაქტირება</a></li>
+								</ul>
+						</li> 
 						<li class="menu-list">
 							<a href="#"><i class="lnr lnr-picture"></i>
 								<span>გალერეა</span></a>

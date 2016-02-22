@@ -57,12 +57,13 @@
 
 				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
+
 						<li class="menu-list act">
 							<a href="#"><i class="lnr lnr-apartment"></i>
 								<span>ბინები</span></a>
 								<ul class="sub-menu-list">
-									<li><a href="viewGallery.php">დათვალიერება</a> </li>
-									<li><a href="addImage.php">დამატება</a></li>
+									<li><a href="viewFlats.php">დათვალიერება</a> </li>
+									<li><a href="editFlat.php">რედაქტირება</a></li>
 								</ul>
 						</li>
 						<li class="menu-list">
@@ -119,22 +120,38 @@
 		<!-- //header-ends -->
 		<div id="page-wrapper">
 				<div class="graphs">
-					<h3 class="blank1">სურათის დამატება</h3>
+					<h3 class="blank1">ბინის რედაქტირება</h3>
 						<div class="tab-content">
 						<div class="tab-pane active" id="horizontal-form">
 
-							<form action="addFlat_script.php" method="post" enctype="multipart/form-data" class="form-horizontal">
-							   <div class="form-group">
+							<form action="editFlat_script.php" method="post" enctype="multipart/form-data" class="form-horizontal">
+								<div class="form-group">
 									<label for="radio" class="col-sm-2 control-label">ბლოკი</label>
 									<div class="col-sm-8">
-										<div class="radio-inline"><label><input type="radio" style="category-radio" name="block" value="A-ბლოკი" checked=""> A-ბლოკი</label></div>
-										<div class="radio-inline"><label><input type="radio" style="category-radio" name="block" value="B-ბლოკი" > B-ბლოკი</label></div>
+										<div class="radio-inline"><label><input type="radio" style="block-radio" name="block" value="A-ბლოკი" checked=""> A-ბლოკი</label></div>
+										<div class="radio-inline"><label><input type="radio" style="block-radio" name="block" value="B-ბლოკი" >B-ბლოკი</label></div>
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="description" class="col-sm-2 control-label">აღწერა</label>
+									<label for="selector1" class="col-sm-2 control-label">სართული</label>
+									<div class="col-sm-4"><select name="floor" id="selector1" class="form-control1">
+										<option>1</option>
+										<option>2</option>
+									</select></div>
+								</div>
+								<div class="form-group">
+									<label for="selector1" class="col-sm-2 control-label">ნომერი</label>
+									<div class="col-sm-4"><select name="flatNum" id="selector1" class="form-control1">
+										<option>1</option>
+										<option>2</option>
+									</select></div>
+								</div>
+								<div class="form-group">
+									<label for="radio" class="col-sm-2 control-label">სტატუსი</label>
 									<div class="col-sm-8">
-										<input type="text" name="description" id="description" maxlength="30" cols="50" rows="4" class="form-control1"/>
+										<div class="radio-inline"><label><input type="radio" style="status-radio" name="status" value="თავისუფალი" checked=""> თავისუფალი</label></div>
+										<div class="radio-inline"><label><input type="radio" style="status-radio" name="status" value="დაჯავშნილი" >დაჯავშნილი</label></div>
+										<div class="radio-inline"><label><input type="radio" style="status-radio" name="status" value="გაყიდული" > გაყიდული</label></div>
 									</div>
 								</div>
 							    <div class="panel-footer">

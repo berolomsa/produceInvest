@@ -70,7 +70,14 @@
 
 				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
-						<li class="active"><a href="viewFlats.php"><i class="lnr lnr-apartment"></i> <span>ბინები</span></a></li>     
+						<li class="menu-list act">
+							<a href="#"><i class="lnr lnr-apartment"></i>
+								<span>ბინები</span></a>
+								<ul class="sub-menu-list">
+									<li><a href="viewFlats.php">დათვალიერება</a> </li>
+									<li><a href="editFlat.php">რედაქტირება</a></li>
+								</ul>
+						</li>
 						<li class="menu-list">
 							<a href="#"><i class="lnr lnr-picture"></i>
 								<span>გალერეა</span></a>
@@ -137,7 +144,6 @@
 											<th>სართული</th>
 											<th>ნომერი</th>
 											<th>სტატუსი</th>
-											<th style="width:20px"></th>
 										</tr>
 									</thead>
 									<tbody>
@@ -158,7 +164,6 @@
 												echo 'გაყიდული';	
 											}
 											 ?></td>
-											<td><img src="images/edit.png"/></td>
 										</tr>
 										<?php }?>
 									</tbody>

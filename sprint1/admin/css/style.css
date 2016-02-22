@@ -936,7 +936,7 @@ h5.left-nav-title {
 }
 
 .left-side-collapsed .custom-nav {
-    margin: 2px 0 20px 0;
+    margin: 55px 0 20px 0;
 }
 
 .left-side-collapsed .custom-nav li a {
@@ -2866,7 +2866,7 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
   background: #fff;
   box-shadow: none !important;
   width: 100%;
-  font-size: 1em;
+  font-size: 14px;
   font-weight: 300;
   height: 40px;
   border-radius: 0;
