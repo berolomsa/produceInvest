@@ -56,13 +56,13 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">მთავარი</a></li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">პროექტები</a>
                             <ul class="dropdown-menu">
                                 <li><a href="project1.php">პროექტი 1</a></li>
                                 <li><a href="project2.php">პროექტი 2</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">ჩვენ</a>
                             <ul class="dropdown-menu">
@@ -87,10 +87,12 @@
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
                 <li data-target="#main-slider" data-slide-to="2"></li>
+                <li data-target="#main-slider" data-slide-to="3"></li>
+                <li data-target="#main-slider" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/pi1.jpg)">
+                <div class="item active" style="background-image: url(images/slider_1.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -111,7 +113,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/pi2.jpg)">
+                <div class="item" style="background-image: url(images/slider_2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -132,7 +134,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/pi3.jpg)">
+                <div class="item" style="background-image: url(images/slider_3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -150,6 +152,46 @@
                         </div>
                     </div>
                 </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider_4.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">ჩვენი მიმდინარე პროექტი</h1>
+                                    <h2 class="animation animated-item-2">დიდი დიღომი, 2 მიკ.რ და ფარნავაზ მეფის გამზირს შორის, თბილისი</h2>
+                                    <!-- <a class="btn-slide animation animated-item-3" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <!-- <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive">
+                                </div>  --> 
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider_5.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">ჩვენი მიმდინარე პროექტი</h1>
+                                    <h2 class="animation animated-item-2">დიდი დიღომი, 2 მიკ.რ და ფარნავაზ მეფის გამზირს შორის, თბილისი</h2>
+                                    <!-- <a class="btn-slide animation animated-item-3" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <!-- <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive">
+                                </div>  --> 
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
         <a class="prev hidden-xs" href="#main-slider" data-slide="prev">

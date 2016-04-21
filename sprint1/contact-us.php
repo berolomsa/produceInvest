@@ -57,13 +57,13 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">მთავარი</a></li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">პროექტები</a>
                             <ul class="dropdown-menu">
                                 <li><a href="project1.php">პროექტი 1</a></li>
                                 <li><a href="project2.php">პროექტი 2</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">ჩვენ</a>
                             <ul class="dropdown-menu">

@@ -404,6 +404,9 @@ input.search-form:hover {
   position: absolute;
 }
 
+.image-round {
+  border-radius: 4%;
+}
 
 #main-slider .carousel .item {
   background-position: 50%;
@@ -420,6 +423,8 @@ input.search-form:hover {
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
+  background-size: cover;
+  background-position: center center;
 }
 
 #main-slider .carousel .item:first-child {
@@ -1486,6 +1491,7 @@ ul.social_icons li  a i{
 }
 .clients-comments img {
   background:#DDDDDD;
+  border-radius: 5% !important;
   border: 1px solid #DDDDDD;
   height: 182px;
   padding: 3px;

@@ -57,13 +57,13 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">მთავარი</a></li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">პროექტები</a>
                             <ul class="dropdown-menu">
                                 <li><a href="project1.php">პროექტი 1</a></li>
                                 <li><a href="project2.php">პროექტი 2</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">ჩვენ</a>
                             <ul class="dropdown-menu">
@@ -88,11 +88,7 @@
 				<h2>ჩვენს შესახებ</h2>
 				<p class="lead">
 					Produce Invest - არის არქიტექტურული კომპანია <br> 
-					et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br></p>
+					</p>
 			</div>
 			<!-- our-team -->
 			<div id="ourTeam" class="team">
@@ -103,25 +99,54 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		        <div class="row">
 	                <div class="col-md-4 wow fadeInDown">
 	                    <div class="clients-comments text-center">
-	                        <a href="http://facebook.com/backorforth"><img src="images/client1.png" class="img-circle" alt=""></a>
-	                        <h2>ბერო ლომსაძე</h2>
-	                        <h4>Software Developer</h4>
+	                        <a href="http://facebook.com/backorforth"><img src="images/direqtori_amiran_wkrialashvili.jpg" class="img-circle" alt=""></a>
+	                        <h2>ამირან წკრიალაშვილი</h2>
+	                        <h4>დირექტორი</h4>
 	                    </div>
 	                </div>
 	                <div class="col-md-4 wow fadeInDown">
 	                    <div class="clients-comments text-center">
-	                        <a href="http://facebook.com/backorforth"><img src="images/client2.png" class="img-circle" alt=""></a>
-	                        <h2>ანანო ბოდოკია</h2>
-	                        <h4>Software Developer</h4>
+	                        <a href="http://facebook.com/backorforth"><img src="images/arqiteqtori_davit_xizanishvili.jpg" class="img-circle" alt=""></a>
+	                        <h2>დავით ხიზანიშვილი</h2>
+	                        <h4>არქიტექტორი</h4>
 	                    </div>
 	                </div>
 	                <div class="col-md-4 wow fadeInDown">
 	                    <div class="clients-comments text-center">
-	                        <a href="http://facebook.com/backorforth"><img src="images/client3.png" class="img-circle" alt=""></a>
-	                        <h2>ბერო ლომსაძე</h2>
-	                        <h4>Software Developer</h4>
+	                        <a href="http://facebook.com/backorforth"><img src="images/arqiteqtori_levan_jvania.jpg" class="img-circle" alt=""></a>
+	                        <h2>ლევან ჟვანია</h2>
+	                        <h4>არქიტექტორი</h4>
 	                    </div>
 	                </div>
+
+                    <div class="col-md-3 wow fadeInDown">
+                        <div class="clients-comments text-center">
+                            <a href="http://facebook.com/backorforth"><img src="images/geodezisti_davit_bregvadze.jpg" class="img-circle" alt=""></a>
+                            <h2>დავით ბრეგვაძე</h2>
+                            <h4>გეოდეზიტი</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 wow fadeInDown">
+                        <div class="clients-comments text-center">
+                            <a href="http://facebook.com/backorforth"><img src="images/mshnebeli_kaxa_baxsoliani.jpg" class="img-circle" alt=""></a>
+                            <h2>კახა ბახსოლიანი</h2>
+                            <h4>მშენებელი</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 wow fadeInDown">
+                        <div class="clients-comments text-center">
+                            <a href="http://facebook.com/backorforth"><img src="images/gayidvebis_menejeri_sofo_xizanishvili.jpg" class="img-circle" alt=""></a>
+                            <h2>სოფო ხიზანიშვილი</h2>
+                            <h4>გაყიდვების მენეჯერი</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 wow fadeInDown">
+                        <div class="clients-comments text-center">
+                            <a href="http://facebook.com/backorforth"><img src="images/bugalteri_indira_chichinadze.jpg" class="img-circle" alt=""></a>
+                            <h2>ინდირა ჭიჭინაძე</h2>
+                            <h4>ბუღალტერი</h4>
+                        </div>
+                    </div>
            		</div>
 			</div>	<!--/.row-->
 
@@ -131,24 +156,19 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 				</div>
 
 		        <div class="row">
-	                <div class="col-md-3 wow fadeInDown">
+	                <div class="col-md-4 wow fadeInDown">
 	                    <div class="partnior-comments text-center">
-	                        <a href="http://geocell.ge"><img src="images/geocell.png" class="img-circle" alt=""></a>
+	                        <a href="http://www.rmp.ge/about-us/company-profile/"><img src="images/partner1.png" class="img-circle" alt=""></a>
 	                    </div>
 	                </div>
-	                <div class="col-md-3 wow fadeInDown">
+	                <div class="col-md-4 wow fadeInDown">
 	                    <div class="partnior-comments text-center">
-	                        <a href="http://magti.com"><img src="images/magti.jpg" class="img-circle" alt=""></a>
+	                        <a href=""><img src="images/partner2.bmp" class="img-circle" alt=""></a>
 	                    </div>
 	                </div>
-	                <div class="col-md-3 wow fadeInDown">
+	                <div class="col-md-4 wow fadeInDown">
 	                    <div class="partnior-comments text-center">
-	                        <a href="http://beeline.ge"><img src="images/beeline.png" class="img-circle" alt=""></a>
-	                    </div>
-	                </div>
-	                <div class="col-md-3 wow fadeInDown">
-	                    <div class="partnior-comments text-center">
-	                        <a href="http://bali.ge"><img src="images/bali.png" class="img-circle" alt=""></a>
+	                        <a href=""><img src="images/partner3.png" class="img-circle" alt=""></a>
 	                    </div>
 	                </div>
            		</div>
