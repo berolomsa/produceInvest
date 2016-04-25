@@ -34,7 +34,8 @@
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/Produce-invest-1635238396725797"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="skype:produce.invest?userinfo"><i class="fa fa-skype"></i></a></li>
                             </ul>
                        </div>
                     </div>
@@ -101,8 +102,8 @@
                             <li class="col-sm-6">
                                 <address>
                                     <h5>სათაო ოფისი</h5>
-                                    <p>2 მიკ.რ<br>
-                                     ფარნავაზ მეფის გამზირს შორის</p>
+                                    <p>დიდი დიღომი<br>
+                                        I მკ/რ და ფარნავაზ მეფის გამზირის შორის (09/033)</p>
                                     <p>ტელეფონი: +995 599 70 13 33 <br>
                                     produceinvest@gmail.com</p>
                                 </address>
@@ -170,7 +171,8 @@
                 <div class="col-sm-6 col-xs-8">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/Produce-invest-1635238396725797"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="skype:produce.invest?userinfo"><i class="fa fa-skype"></i></a></li>
                             </ul>
                        </div>
                 </div>

@@ -28,12 +28,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +995 599 70 13 33</p></div>
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +995 599 70 13 33</p>
+
+                        </div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/Produce-invest-1635238396725797"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="skype:produce.invest?userinfo"><i class="fa fa-skype"></i></a></li>
                             </ul>
                        </div>
                     </div>
@@ -212,7 +215,8 @@
                 <div class="col-sm-6 col-xs-8">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/Produce-invest-1635238396725797"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="skype:produce.invest?userinfo"><i class="fa fa-skype"></i></a></li>
                             </ul>
                        </div>
                 </div>
