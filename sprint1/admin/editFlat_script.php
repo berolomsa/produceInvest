@@ -7,9 +7,9 @@ if ($selected_radio == 'B-ბლოკი') {
 }
 ob_start();
 $host="localhost"; // Host name
-$username="root"; // Mysql username
-$password=""; // Mysql password
-$db_name="produce_invest"; // Database name
+$username="producei_db"; // Mysql username
+$password="Z6W27l6roy"; // Mysql password
+$db_name="producei_db"; // Database name
 $tbl_name="flat"; // Table name
 
 mysql_connect("$host", "$username", "$password")or die("cannot connect");
